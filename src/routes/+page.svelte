@@ -16,18 +16,15 @@
   });
 </script>
 
-<div class="flex flex-col items-center gap-20">
-  <BlobBackground />
-  <div class="flex absolute rounded-lg border border-primary-color backdrop-blur-[30px] h-[60vh] w-[65vw] brightness-84 items-center justify-center mainCard mt-25">
-    <h1 class="text-primary-text-light dark:text-primary-text-dark text-9xl">GDSC LSU</h1>
-  </div>
+<div class="grid min-h-dvh place-items-center gap-10 grid-template-rows-[auto]">
+  <div class="flex flex-col items-center gap-20">
+    <BlobBackground />
+    <div class="flex absolute rounded-lg border border-primary-color backdrop-blur-[30px] h-[60vh] w-[65vw] brightness-84 items-center justify-center mainCard mt-25">
+      <h1 class="text-primary-text-light dark:text-primary-text-dark text-9xl">GDSC LSU</h1>
+    </div>
 
-  <ImageTrack />
-  <div>
-    <h1 class="text-primary-text-light text-9xl"> about us </h1>
-  </div>
-
-  <div>
-    <h1 class="text-primary-text-dark text-9xl"> Our socials </h1>
+    <div>
+      <h1 class="text-primary-text-dark text-9xl"> Our socials </h1>
+    </div>
   </div>
 </div>

@@ -49,9 +49,9 @@
 </script>
 
 <div id="track" data-mouse-down-at="0" data-prev-percentage="0" data-percentage="0" class="flex justify-center align-center">
-  <img src={dina} alt="hudson" class="image"/>
   <img src={hudson} alt="parallel" class="image"/>
-  <img src={parallel} alt="test" class="image"/>
+  <img src={hudson} alt="parallel" class="image"/>
+  <img src={hudson} alt="parallel" class="image"/>
 </div>
 
 <style>

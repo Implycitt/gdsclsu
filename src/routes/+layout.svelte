@@ -4,10 +4,7 @@
 	import Header from "$lib/components/Header.svelte";
 	import Footer from "$lib/components/Footer.svelte";
 
-	import { onMount } from 'svelte';
 	import { lenis } from "lenis-svelte";
-
-	const rootLenisInstance = lenis.instance('root');
 
 	let { children } = $props();
 </script>
