@@ -1,6 +1,4 @@
 <script lang="ts">
-  import test from "$lib/assets/test.png";
-
 	import ImageTrack from "$lib/components/ImageTrack.svelte";
 	import BlobBackground from "$lib/components/BlobBackground.svelte";
 
