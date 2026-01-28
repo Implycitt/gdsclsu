@@ -4,7 +4,6 @@
 	import Header from "$lib/components/Header.svelte";
 	import Footer from "$lib/components/Footer.svelte";
 
-	import { lenis } from "lenis-svelte";
 	import type { LayoutData } from './$types';
 
 	let { children, data }: { children: any; data: LayoutData } = $props();
@@ -13,7 +12,7 @@
 <Header user={data.user} />
 <div class="min-h-dvh flex flex-col justify-between item-center">
 	<div class="min-h-dvh">
-		<main use:lenis>
+		<main>
 			{@render children()}
 		</main>
 	</div>
