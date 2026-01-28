@@ -1,14 +1,13 @@
 <script lang="ts">
   import { onMount } from "svelte";
 
-  import Lillian from "$lib/assets/Lillian.webp";
-  import Malik from "$lib/assets/Malik.webp";
-  import Thomas from "$lib/assets/Thomas.webp";
-  import Quentin from "$lib/assets/Quentin.webp";
-  import Andy from "$lib/assets/Andy.webp";
-  import Daniel from "$lib/assets/Daniel.webp";
-  import Dina from "$lib/assets/Dina.webp";
-  
+  import Lillian from "$lib/assets/Lillian.jpg";
+  import Malik from "$lib/assets/Malik.jpg";
+  import Thomas from "$lib/assets/Thomas.jpg";
+  import Quentin from "$lib/assets/Quentin.jpg";
+  import Andy from "$lib/assets/Andy.jpg";
+  import Daniel from "$lib/assets/Daniel.jpg";
+  import Dina from "$lib/assets/Dina.jpg";
 
   onMount(() => {
     const track = document.getElementById("track");

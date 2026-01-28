@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
 
-  import gdscLogo from "$lib/assets/GDSC.png";
+  import gdscLogo from "$lib/assets/GDSC.jpg";
 
   interface User {
     uid: string;

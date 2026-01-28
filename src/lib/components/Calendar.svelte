@@ -36,7 +36,145 @@
     let monthViewBtn: HTMLButtonElement | undefined = $state(undefined);
     let timeGrid: HTMLDivElement | undefined = $state(undefined);
 
-    let events: Event[] = []
+    //let events: Event[] = []
+    let events: Event[] = [
+  // ===== FEBRUARY =====
+  {
+    id: 'gbm-3-2026',
+    title: 'General Body Meeting 3',
+    date: '2026-01-26',
+    startTime: '17:00',
+    endTime: '18:30',
+    color: 'purple'
+  },
+  {
+    id: 'resume-workshop-2026',
+    title: '📌 Resume Workshop',
+    date: '2026-02-02',
+    startTime: '17:00',
+    endTime: '18:30',
+    color: 'blue'
+  },
+  {
+    id: 'portfolio-workshop-2026',
+    title: '📌 Portfolio Workshop',
+    date: '2026-02-02',
+    startTime: '18:30',
+    endTime: '20:00',
+    color: 'green'
+  },
+  {
+    id: 'potluck-game-night-2026',
+    title: '🍕 Potluck & Game Night',
+    date: '2026-02-09',
+    startTime: '18:00',
+    endTime: '20:00',
+    color: 'purple'
+  },
+  {
+    id: 'python-workshop-2026',
+    title: '🐍 Python Workshop',
+    date: '2026-02-23',
+    startTime: '17:00',
+    endTime: '18:30',
+    color: 'green'
+  },
+
+  // ===== MARCH =====
+  {
+    id: 'discord-bot-workshop-2026',
+    title: '🤖 Make Your Own Discord Bot',
+    date: '2026-03-02',
+    startTime: '17:00',
+    endTime: '18:30',
+    color: 'green'
+  },
+  {
+    id: 'gbm-4-pickleball-2026',
+    title: 'GBM 4 + Pickleball @ UREC',
+    date: '2026-03-16',
+    startTime: '17:00',
+    endTime: '19:00',
+    color: 'purple'
+  },
+  {
+    id: 'presentation-workshop-2026',
+    title: '🗣 Presentation Workshop',
+    date: '2026-03-16',
+    startTime: '18:00',
+    endTime: '19:30',
+    color: 'blue'
+  },
+  {
+    id: 'blender-workshop-2026',
+    title: '🎨 Blender Workshop',
+    date: '2026-03-23',
+    startTime: '17:00',
+    endTime: '18:30',
+    color: 'green'
+  },
+{
+    id: 'web-scraping-ai-agent-2026',
+    title: '🧠 Create a Web Scraping AI Agent',
+    date: '2026-03-30',
+    startTime: '17:00',
+    endTime: '18:30',
+    color: 'red'
+  },
+
+  // ===== APRIL =====
+  {
+    id: 'ctf-competition-2026',
+    title: '🔐 Cyber Capture The Flag Competition',
+    date: '2026-04-06',
+    startTime: '17:00',
+    endTime: '19:00',
+    color: 'orange'
+  },
+  {
+    id: 'man-vs-ai-2026',
+    title: '🤺 Man vs AI Event',
+    date: '2026-04-13',
+    startTime: '17:00',
+    endTime: '18:30',
+    color: 'red'
+  },
+  {
+    id: 'ai-agent-mcp-2026',
+    title: '🧠 Build Complex AI Agent with MCP Servers',
+    date: '2026-04-13',
+    startTime: '18:30',
+    endTime: '20:00',
+    color: 'red'
+  },
+  {
+    id: 'how-to-use-ai-2026',
+    title: '🤖 How To Properly Use AI as a Programmer',
+    date: '2026-04-20',
+    startTime: '17:00',
+    endTime: '18:30',
+    color: 'red'
+  },
+  {
+    id: 'gbm-5-2026',
+    title: 'General Body Meeting 5',
+    date: '2026-04-27',
+    startTime: '17:00',
+    endTime: '18:30',
+    color: 'purple'
+  },
+
+  // ===== EASTER EGG =====
+  {
+    id: 'easter-egg-2026',
+    title: '🐣 Easter Egg',
+    description: 'You weren’t supposed to find this.',
+    date: '2026-03-01',
+    startTime: '12:00',
+    endTime: '13:00',
+    color: 'purple'
+  }
+];
     let editingEventId: string | null = null;
     let selectedEvent: Event | null = $state(null);
     let showDetailModal: boolean = $state(false);
